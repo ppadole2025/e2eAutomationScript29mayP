@@ -21,4 +21,12 @@ public class LoginTest extends BaseTest {
 
         lp.login("test@gmail.com", "test1234");
     }
+    @Test(priority = 3)
+    public void verifyLogin3() {
+
+        LoginPage lp = new LoginPage(driver);
+
+        lp.login("test@gmail.com", "test12345");
+    }
+
 }
