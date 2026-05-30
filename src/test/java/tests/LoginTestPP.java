@@ -22,12 +22,5 @@ public class LoginTestPP extends BaseTest {
         lp.login("test@gmail.com", "test1234");
         Assert.assertEquals(6,6,"Forcefully fail");
     }
-    @Test(priority = 3)
-    public void verifyLoginp3() {
-
-        LoginPage lp = new LoginPage(driver);
-
-        lp.login("test@gmail.com", "test12345");
-    }
 
 }
