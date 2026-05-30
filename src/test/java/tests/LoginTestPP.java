@@ -13,6 +13,7 @@ public class LoginTestPP extends BaseTest {
         LoginPage lp = new LoginPage(driver);
 
         lp.login("test@gmail.com", "test123");
+        System.out.println("Login Test Started... resolved conflict message1-Prnajali Code");
     }
     @Test(priority = 2)
     public void verifyLoginp2() {
