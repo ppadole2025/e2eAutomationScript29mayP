@@ -15,6 +15,7 @@ public class LoginTestPP extends BaseTest {
         lp.login("test@gmail.com", "test123");
         System.out.println("Login Test Started... resolved conflict message1-Prnajali Code");
         System.out.println("Login Test Started... resolved conflict message1 - Anajali");
+         System.out.println("Login Test Started... resolved conflict message3 - Vaishali");
     }
     @Test(priority = 2)
     public void verifyLoginp2() {
