@@ -20,7 +20,7 @@ public class LoginTestPP extends BaseTest {
         LoginPage lp = new LoginPage(driver);
 
         lp.login("test@gmail.com", "test1234");
-        Assert.assertEquals(6,6,"Forcefully fail");
+        Assert.assertEquals(6,6,"Forcefully pass");
     }
 
 }
