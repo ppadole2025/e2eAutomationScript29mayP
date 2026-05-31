@@ -25,5 +25,13 @@ public class LoginTestPP1 extends BaseTest {
         lp.login("test@gmail.com", "test1234");
         Assert.assertEquals(6,6,"Forcefully no idea 2");
     }
+    @Test(priority = 2)
+    public void verifyLoginp33() {
+
+        LoginPage lp = new LoginPage(driver);
+
+        lp.login("test@gmail.com", "test1234");
+        Assert.assertEquals(6,6,"Forcefully no idea 2");
+    }
 
 }
